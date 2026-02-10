@@ -66,9 +66,15 @@ useEffect(() => {
                             {link.label}
                         </a>
                     ))}
+<<<<<<< HEAD
                     <a href="#contact">
                     <Button onClick={() => setMobileMenuOpen(false)}>Contact Me</Button>
                     </a>
+=======
+                        <a href="#contact">
+                    <Button onClick={() => setMobileMenuOpen(false)}>Contact Me</Button>
+                        </a>
+>>>>>>> 13fa4ca2bd968366cef6cdc60f90fa0986487eb3
                     </div>
             </div>
         )}
