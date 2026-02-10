@@ -66,7 +66,9 @@ useEffect(() => {
                             {link.label}
                         </a>
                     ))}
+                    <a href="#contact">
                     <Button onClick={() => setMobileMenuOpen(false)}>Contact Me</Button>
+                    </a>
                     </div>
             </div>
         )}
